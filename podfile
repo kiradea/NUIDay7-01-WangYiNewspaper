@@ -1,0 +1,3 @@
+target 'NUIDay7-01-WangYiNewspaper' do
+pod 'AFNetworking', '~> 3.1.0'
+end
