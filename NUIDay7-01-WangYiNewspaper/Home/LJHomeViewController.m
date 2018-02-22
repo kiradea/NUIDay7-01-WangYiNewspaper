@@ -16,6 +16,7 @@
 @property(nonatomic,strong)NSArray *channels;
 @property (weak, nonatomic) IBOutlet UICollectionViewFlowLayout *flowLayout;
 @property(nonatomic,assign)int currentIndex;
+
 @end
 
 @implementation LJHomeViewController
