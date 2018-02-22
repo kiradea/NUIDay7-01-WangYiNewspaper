@@ -76,7 +76,6 @@
 {
     LJNews *news = self.newsList[indexPath.row];
     LJNewsDetailController *detail = [[LJNewsDetailController alloc]initWithurlString:news.url];
-    
 }
 
 
