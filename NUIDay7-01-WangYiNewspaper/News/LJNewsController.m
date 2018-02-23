@@ -76,7 +76,8 @@
 {
     LJNews *news = self.newsList[indexPath.row];
     LJNewsDetailController *detail = [[LJNewsDetailController alloc]initWithurlString:news.url];
-
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:detail];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 
